@@ -25,8 +25,11 @@ a {
 ul {
     list-style: none;
 }
-  
-  
+
+address {
+    font-style: normal;
+}
+
 button {
     cursor: pointer;
 }
@@ -63,6 +66,10 @@ button {
 
 .contact-link:hover, .contact-link:focus {
     color: var(--main-btn-color);
+}
+
+.adr-color {
+    color: var(--second-color);
 }
 
 .current {
@@ -136,12 +143,6 @@ button {
     font-size: 16px;
     line-height: 1.19;
     color: var(--two-color);
-}
-
-.address {
-    line-height: 1.71;
-    font-style: normal;
-    color: var(--second-color);
 }
 
 
