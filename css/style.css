@@ -2,11 +2,11 @@
     --main-color: #212121;
     --second-color: #ffffff;
     --one-color: #000000;
-    --two-color:  #757575;
+    --two-color: #757575;
     --three-color: #F5F4FA;
     --main-btn-color: #2196F3;
     --main-bg-color: #2F303A;
-} 
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -16,12 +16,12 @@ body {
     background-color: var(--second-color);
     letter-spacing: 0.03em;
 }
-  
+
 a {
     text-decoration: none;
-    color:inherit;
+    color: inherit;
 }
-  
+
 ul {
     list-style: none;
 }
@@ -34,6 +34,10 @@ button {
     cursor: pointer;
 }
 
+img {
+    display: block;
+}
+
 
 
 .logo {
@@ -43,15 +47,16 @@ button {
     color: var(--main-btn-color);
 }
 
-.logo > span {
+.logo>span {
     color: var(--one-color);
 }
-  
+
 .nav-link {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+
 .nav-link:hover {
     color: var(--main-btn-color);
 }
@@ -64,7 +69,8 @@ button {
     color: var(--two-color);
 }
 
-.contact-link:hover, .contact-link:focus {
+.contact-link:hover,
+.contact-link:focus {
     color: var(--main-btn-color);
 }
 
@@ -91,6 +97,7 @@ button {
 }
 
 .hero-button {
+    font-family: 'Roboto';
     font-weight: 700;
     line-height: 2.14;
     letter-spacing: 0.06em;
@@ -102,13 +109,14 @@ button {
     border-radius: 4px;
 }
 
-.hero-button:hover, .hero-button:focus  {
+.hero-button:hover,
+.hero-button:focus {
     color: var(--main-btn-color);
-    background-color:  var(--second-color);
+    background-color: var(--second-color);
     border-color: var(--main-btn-color);
 }
 
-.hero-button:active  {
+.hero-button:active {
     color: var(--main-btn-color);
     background-color: var(--second-color);
     border-color: var(--main-btn-color);
@@ -134,11 +142,16 @@ button {
     line-height: 1.17;
 }
 
+.team {
+    background-color: var(--three-color);
+}
+
 .team-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
 }
+
 .team-position {
     font-size: 16px;
     line-height: 1.19;
@@ -147,6 +160,7 @@ button {
 
 
 .item-btn {
+    font-family: 'Roboto';
     padding: 6px 22px;
     font-weight: 500;
     font-size: 16px;
@@ -166,7 +180,8 @@ button {
 }
 
 
-.item-btn:hover, .item-btn:focus {
+.item-btn:hover,
+.item-btn:focus {
     color: var(--second-color);
     background-color: var(--main-btn-color);
     border-color: var(--main-btn-color);
@@ -190,6 +205,10 @@ button {
     background-color: var(--main-bg-color);
 }
 
+.footer-link {
+    font-weight: 400;
+}
+
 .logo-footer {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
@@ -197,6 +216,6 @@ button {
     color: var(--main-btn-color);
 }
 
-.logo-footer > span {
+.logo-footer>span {
     color: var(--second-color);
 }
